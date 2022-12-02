@@ -31,7 +31,7 @@ nav {
     color: #002743;
     padding: 0.66rem 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 .navList {
@@ -58,11 +58,24 @@ button {
     font-size: 14px;
     font-weight: 600;
 }
-.btn-outline {
+.btn:hover {
     border: 1px #002743 solid;
+    transition: 300ms;
+}
+.btn-outline {
+    transition: 300ms;
+    border: 1px #002743 solid;
+}
+.btn-outline:hover {
+    border: 1px #002743 solid;
+    background-color: #002743;
+    color: white;
+    transition: 300ms;
 }
 .btn {
     text-decoration: underline;
+    transition: 300ms;
     margin-right: 1rem;
+    border: 1px solid transparent;
 }
 </style>
